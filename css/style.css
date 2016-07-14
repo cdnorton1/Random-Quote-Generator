@@ -1,0 +1,96 @@
+/* GOOGLE FONTS */
+/* font-family: 'Atma', cursive;
+font-family: 'Amatica SC', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Cinzel Decorative', cursive; */
+
+body {
+  background: #38383B;
+  color: #FCF7FF;
+}
+
+.container-fluid {
+  width: 50%;
+  margin: 40px auto;
+  background: black;
+  color: #FCF7FF;
+  border-radius: 20px;
+  border:2px double red;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  -webkit-box-shadow: 5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+}
+
+.myButtons {
+  display: inline;
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: 'Amatica SC', cursive;
+  font-size: 5em;
+  letter-spacing: 5px;
+  color: red;
+  text-shadow: 2px 2px black;
+}
+
+.well {
+  background: black;
+  color:#FCF7FF;
+  border: none;
+}
+
+.authorName {
+  font-family: 'Amatica SC', cursive;
+  font-size: 2em;
+  color: red;
+  font-weight: bold;
+}
+.message {
+  font-family: 'Amatica SC', cursive;
+  font-size: 2em;
+}
+
+#getMessage {
+  font-family: 'Atma', cursive;
+  font-size: 1.5em;
+  /*width: 20%;*/
+  background: red;
+  margin-left: 60%;
+  border: none;
+  color: #FCF7FF;none
+  -webkit-box-shadow: 5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+#getMessage:hover {
+  background: #FCF7FF;
+  color: red;
+}
+
+#tweetMessage {
+  font-family: 'Atma', cursive;
+  font-size: 1.5em;
+  /*width: 20%;*/
+  margin-right: 60%;
+  border: none;
+  background: #00aced;
+  color: #FCF7FF;
+  -webkit-box-shadow: 5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         5px 11px 13px 0px rgba(50, 50, 50, 0.75);
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#tweetMessage:hover {
+  background: #FCF7FF;
+  color: #00aced;
+}
